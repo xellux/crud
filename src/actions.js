@@ -29,4 +29,5 @@ export const addDocument = async(collection, data) =>{
     } catch (error) {
         result.error = error
     }
+        return result
 }
